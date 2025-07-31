@@ -1,0 +1,18 @@
+:root{
+    --neutralColor:  #ebeff2;
+    --primaryColor:  #08182f;
+    --secondaryColor:  #75a652;
+    --tertiaryColor:  #bbb0a0;
+}
+@font-face {
+    font-family: 'Undertale';
+    src: url('./pixel-comic-sans-undertale-sans-font.otf/pixel-comic-sans-undertale-sans-font.otf') format('truetype')
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:  var(--primaryColor);
+    color: var(--neutralColor);
+    font-family: 'Undertale';
+}
